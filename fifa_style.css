@@ -1,0 +1,50 @@
+/*-------- google font---------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    background-color:aliceblue;
+    
+}
+
+/* --------section style-------- */
+.first{
+    width: 1321px;
+    height:646px ;
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* ------------title style--------- */
+.title{
+    width: 531px;
+    height: 424px;
+    margin-right: 24px;
+    margin-left: 106px;
+}
+.title h1{
+    font-size: 70px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.title p{
+    color: #FFFFFF;
+    font-size:16px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.title a{
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* ----------banner style-------- */
+.banner img{
+    width: 581px;
+    height: 613px;
+}
