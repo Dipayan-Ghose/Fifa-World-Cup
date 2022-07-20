@@ -3,10 +3,11 @@
 
 body{
     background-color:aliceblue;
+
     
 }
 
-/* --------section style-------- */
+/* --------section 1 style-------- */
 .first{
     width: 1321px;
     height:646px ;
@@ -15,6 +16,17 @@ body{
     border-radius: 30px;
     margin-top: 50px;
     margin-left: 100px;
+    margin-bottom: 130px;
+    
+}
+.second{
+    border: 2px solid green;
+    width: 1321px;
+    height: fit-content;
+    margin-left: 100px;
+    display: flex;
+    gap: 24px;
+
 }
 
 /* ------------title style--------- */
@@ -47,4 +59,93 @@ body{
 .banner img{
     width: 581px;
     height: 613px;
+    margin-top: 33px;
 }
+
+/* --------section 2 style-------- */
+.grid-article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:24px;
+}
+.options{
+    width: 312px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #161616;
+    border-radius: 10px;
+    position: relative;
+}
+.options a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color:black;
+}
+#blog{
+    background-color: #DD0000;
+    color:white;
+}
+
+/* -----------blogs style---------- */
+
+article{
+    width: 312px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.blogs{
+margin-bottom: 20px;
+}
+.blogs-margin{
+    margin-left: 20px;
+}
+.transfer{
+    border: 1px solid #161616;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    font-family: "poppins";
+    background-color:aliceblue;
+}
+.time-chat{
+    display: flex;
+    justify-content:space-between;
+    width: 143px;
+}
+.time{
+    display: flex;
+align-items: center;
+}
+.chat{
+    display: flex;
+    align-items: center;
+}
+
+/* --------Footer style-------- */
+footer{
+    background-color: #161616;
+    width: 1600px;
+    height: 444px;
+}
+footer h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 130px;
+    padding-top: 130px;
+}
+
